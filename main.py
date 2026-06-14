@@ -72,7 +72,7 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             if "data_check" in active_steps:
-            _ = mlflow.run(
+             _ = mlflow.run(
                 f"src/data_check",
                 "main",
                 env_manager="conda",
