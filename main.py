@@ -71,8 +71,7 @@ def go(config: DictConfig):
             ##################
             # Implement here #
             ##################
-            if "data_check" in active_steps:
-             _ = mlflow.run(
+            _ = mlflow.run(
                 f"src/data_check",
                 "main",
                 env_manager="conda",
@@ -128,7 +127,7 @@ def go(config: DictConfig):
             
 
         if "test_regression_model" in active_steps:
-             _ = mlflow.run(
+            _ = mlflow.run(
             f"{config['main']['components_repository']}/test_regression_model",
             "main",
             env_manager="conda",
