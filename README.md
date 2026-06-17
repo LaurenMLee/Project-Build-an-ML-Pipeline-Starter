@@ -1,5 +1,7 @@
 
-https://wandb.ai/lee-pope-lauren-m-wgu/
+https://wandb.ai/lee-pope-lauren-m-wgu/ 
+
+
 https://github.com/LaurenMLee/Project-Build-an-ML-Pipeline-Starter/
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
